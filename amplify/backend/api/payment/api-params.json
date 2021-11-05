@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/payment",
+      "lambdaFunction": "paytestc49d6fc3",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/payment"
+    }
+  ],
+  "resourceName": "payment",
+  "apiName": "payment",
+  "functionArns": [
+    {
+      "lambdaFunction": "paytestc49d6fc3"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-paytest-dev-105834-authRole",
+    "unAuthRoleName": "amplify-paytest-dev-105834-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "paytestc49d6fc3",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

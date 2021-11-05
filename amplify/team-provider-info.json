@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-paytest-dev-105834-authRole",
+      "UnauthRoleArn": "arn:aws:iam::682975031666:role/amplify-paytest-dev-105834-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::682975031666:role/amplify-paytest-dev-105834-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-paytest-dev-105834-deployment",
+      "UnauthRoleName": "amplify-paytest-dev-105834-unauthRole",
+      "StackName": "amplify-paytest-dev-105834",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:682975031666:stack/amplify-paytest-dev-105834/e7cb5f40-3ddb-11ec-bd73-0a7c8d80f6d6",
+      "AmplifyAppId": "dhxdonqqqs9nn"
+    },
+    "categories": {
+      "function": {
+        "paytestc49d6fc3": {
+          "deploymentBucketName": "amplify-paytest-dev-105834-deployment",
+          "s3Key": "amplify-builds/paytestc49d6fc3-305541412f7258477263-build.zip"
+        }
+      }
+    }
+  }
+}
